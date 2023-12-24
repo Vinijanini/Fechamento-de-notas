@@ -49,6 +49,4 @@ with open('Média_dos_alunos.txt', "w") as arq: #cria o arquivo de texto com as 
     arq.write(f"{listaaprov}\n\n")
     arq.write("REPROVADOS:")
     arq.write(f"{listareprov}")
-with open('Notas_dos_alunos', 'w') as arq2:
-    arq2.write(f'')
 input('Foi criado um arquivo txt para salvar as informações')
