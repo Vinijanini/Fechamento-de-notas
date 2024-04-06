@@ -1,42 +1,18 @@
-O objetivo deste projeto é criar um programa simples em Python para analisar as notas dos alunos e classificá-los como aprovados ou reprovados com base em uma média pré-definida. O programa solicita ao usuário o número de notas a serem consideradas, a média mínima para aprovação e, em seguida, coleta as notas dos alunos, calcula a média e os classifica.
+Programa de Cálculo de Médias dos Alunos
 
-Estrutura do Código:
-Funções Definidas:
-lin(): Imprime uma linha decorativa para melhorar a visualização no console.
+Este programa foi desenvolvido para calcular a média de notas dos alunos e categorizá-los como aprovados ou reprovados, de acordo com uma média de aprovação definida pelo usuário.
 
-lista(): Exibe as listas de alunos aprovados e reprovados no console.
+De Uso:
 
-Variáveis Globais:
-alu: Contador de alunos.
-sm: Variável para acumular a soma das notas.
+    Ao iniciar o programa, você será solicitado a inserir o número de notas a serem consideradas.
+    Em seguida, você deverá definir a média mínima para aprovação.
+    Para cada aluno, insira o nome e as notas correspondentes.
+    O programa calculará a média das notas do aluno e indicará se ele foi aprovado ou reprovado.
+    Após avaliar um aluno, você terá a opção de continuar avaliando outros alunos ou encerrar o programa.
+    Após a conclusão da avaliação de todos os alunos, será gerado um arquivo de texto chamado "Média_dos_alunos.txt" contendo a lista de alunos aprovados e reprovados, juntamente com suas respectivas médias.
 
-Listas:
-listareprov: Lista para armazenar os alunos reprovados.
-listaaprov: Lista para armazenar os alunos aprovados.
+Observações:
 
-Loop Principal:
-O programa entra em um loop onde solicita informações sobre cada aluno. As notas são coletadas, a média é calculada, e o aluno é classificado como aprovado ou reprovado com base na média e na média mínima para aprovação.
-
-Ao final, as listas de alunos aprovados e reprovados são exibidas no console e também são salvas em um arquivo de texto: "Média_dos_alunos.txt".
-
-Funcionamento do Código:
-O usuário fornece a quantidade de notas a serem consideradas e a média mínima para aprovação.
-
-O programa entra em um loop para coletar informações sobre cada aluno, incluindo o nome e as notas.
-
-A média das notas é calculada e o aluno é classificado como aprovado ou reprovado.
-
-As informações são exibidas no console.
-
-O usuário pode optar por continuar ou encerrar o programa.
-
-As listas de alunos aprovados e reprovados são salvas em arquivos de texto.
-
-Conclusão:
-O projeto atinge seu objetivo ao fornecer uma análise simples das notas dos alunos, classificando-os como aprovados ou reprovados.
-
-
-
-
-
-
+    Certifique-se de inserir números válidos ao serem solicitados.
+    Se desejar encerrar o programa a qualquer momento, digite 'n' quando perguntado se deseja continuar.
+    Os resultados também serão exibidos no terminal após a conclusão da avaliação de todos os alunos.
